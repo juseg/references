@@ -17,3 +17,5 @@ print.line.length   79
 print.use.tab       off
 
 preserve.key.case   on
+
+sort                on
