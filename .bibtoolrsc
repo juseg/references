@@ -1,6 +1,12 @@
 input               references.bib
 output.file         references.bib
 
+fmt.et.al           {.etal}
+
+key.base            lower
+key.format          {{%3#p(author){%1p(author)} # %2p(author)} . {%4d(year)}}
+key.number.separator {}
+
 pass.comments       on
 
 print.align         14
