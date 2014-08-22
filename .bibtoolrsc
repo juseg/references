@@ -4,7 +4,8 @@ output.file         references.bib
 fmt.et.al           {.etal}
 
 key.base            lower
-key.format          {{%3#p(author){%1p(author)} # %2p(author)}.{%2w(year)}}
+key.format          {{%3#p(author){%1p(author)} # %2p(author)}.{%2w(year)} #
+                     {%3#p(editor){%1p(editor)} # %2p(editor)}.{%2w(year)}}
 key.number.separator {}
 
 pass.comments       on
@@ -19,6 +20,7 @@ print.use.tab       off
 preserve.key.case   on
 
 sort                on
+sort.format         {{%1.#s(crossref)00.}{$key}}
 sort.order          {article = author # title # journal # volume # number
                                # pages # year # note # doi}
 sort.order          {misc = author # title # url # year}
