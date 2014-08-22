@@ -24,9 +24,7 @@ sort.format         {{%1.#s(crossref)00.}{$key}}
 sort.order          {article = author # title # journal # volume # number
                                # pages # year # note # doi}
 sort.order          {misc = author # title # url # year}
-sort.order          {incollection = author # title # editor # booktitle
-                                    # volume # series # pages # publisher
-                                    # address # year # note # doi}
+sort.order          {incollection = author # title #crossref # pages # doi}
 sort.order          {inproceedings = author # title # editor # booktitle
                                     # volume # series # pages # publisher
                                     # address # year # note # doi}
