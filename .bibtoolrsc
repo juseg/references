@@ -37,4 +37,4 @@ sort.order          {book = author # title # editor # booktitle
                             # publisher # address # year # doi}
 sort.order          {proceedings = editor # booktitle # series # volume
                                    # publisher # address # year # doi}
-sort.order          {misc = author # title # url # year}
+sort.order          {misc = author # title # howpublished # url # year # doi}
