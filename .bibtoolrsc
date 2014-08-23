@@ -32,6 +32,9 @@ sort.order          {article = author # title # journal # volume # number
                                # pages # year # note # doi}
 sort.order          {incollection = author # title # crossref # pages # doi}
 sort.order          {inproceedings = author # title # crossref # pages # doi}
+sort.order          {book = author # title # editor # booktitle
+                            # edition # series # volume
+                            # publisher # address # year # doi}
 sort.order          {proceedings = editor # booktitle # series # volume
                                    # publisher # address # year # doi}
 sort.order          {misc = author # title # url # year}
