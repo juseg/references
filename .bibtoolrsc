@@ -22,11 +22,11 @@ preserve.key.case   on
 sort                on
 sort.format         {{%1#s(@article){01} #
                       %1#s(@incollection){02} #
-                      %1#s(@book){02} #
-                      %1#s(@inproceedings){03} #
-                      %1#s(@proceedings){03} #
-                      %1#s(@misc){05} #
-                      %s($type)}.$key}
+                      %1#s(@book){03} #
+                      %1#s(@inproceedings){04} #
+                      %1#s(@proceedings){05} #
+                      %1#s(@misc){06} #
+                      %s($type)}.%s($key)}
 
 sort.order          {article = author # title # journal # volume # number
                                # pages # year # note # doi}
