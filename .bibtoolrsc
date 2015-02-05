@@ -25,7 +25,8 @@ sort.format         {{%1#s(@article){01} #
                       %1#s(@book){03} #
                       %1#s(@inproceedings){04} #
                       %1#s(@proceedings){05} #
-                      %1#s(@misc){06} #
+                      %1#s(@phdthesis){06} #
+                      %1#s(@misc){07} #
                       %s($type)}.%s($key)}
 
 sort.order          {article = author # title # journal # volume # number
@@ -37,4 +38,5 @@ sort.order          {book = author # title # editor # booktitle
                             # publisher # address # year # doi}
 sort.order          {proceedings = editor # booktitle # series # volume
                                    # publisher # address # year # doi}
+sort.order          {phdthesis = author # title # school # url # year}
 sort.order          {misc = author # title # howpublished # url # year # doi}
