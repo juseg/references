@@ -3,19 +3,24 @@
 % --------------- %
 @STRING{ag      = {Ann. Geophys.} }
 @STRING{agl     = {Ann. Glaciol.} }
+@STRING{ana     = {Advances in Numerical Analysis} }
 @STRING{b       = {Boreas} }
 @STRING{bams    = {B. Am. Meteorol. Soc.} }
+@STRING{cc      = {Climatic Change} }
 @STRING{cd      = {Clim. Dynam.} }
 @STRING{cjes    = {Can. J. Earth Sci.} }
 @STRING{cmt     = {Continuum Mech. Therm.} }
 @STRING{cp      = {Clim. Past} }
 @STRING{crst    = {Cold Reg. Sci. Technol.} }
 @STRING{cse     = {Comput. Sci. Eng.} }
+@STRING{eg      = {Eiszeitalter und Gegenwart} }
+@STRING{egh     = {Eclogae geol. Helv} }
 @STRING{ems     = {Environ. Modell. Softw.} }
 @STRING{eos     = {EOS T. Am. Geophys. Un.} }
 @STRING{epsl    = {Earth Planet. Sc. Lett.} }
 @STRING{espl    = {Earth Surf. Processes and Landforms} }
 @STRING{g       = {Geology} }
+@STRING{ga      = {Geodin. Acta} }
 @STRING{gaa     = {Geogr. Ann. A} }
 @STRING{gb      = {Geogr. Bull.} }
 @STRING{geom    = {Geomorphology} }
@@ -25,14 +30,20 @@
 @STRING{gpq     = {G\'{e}ogr. phys. Quatern.} }
 @STRING{grl     = {Geophys. Res. Lett.} }
 @STRING{gsam    = {Geol. Soc. Am. Bull.} }
+@STRING{hess    = {Hydrol. Earth Syst. Sc.} }
 @STRING{ijc     = {Int. J. Climatol.} }
+@STRING{jas     = {J. Atmos. Sci.} }
+@STRING{jcp     = {J. Comput. Phys.} }
+@STRING{jfm     = {J. Fluid Mech.} }
 @STRING{jg      = {J. Geol.} }
 @STRING{jgl     = {J. Glaciol.} }
 @STRING{jgr     = {J. Geophys. Res.} }
+@STRING{jgres   = {J. Geophys. Res. Earth Surf.} }
 @STRING{jh      = {J. Hydrol.} }
 @STRING{jm      = {J. Maps} }
 @STRING{jqs     = {J. Quaternary Sci.} }
 @STRING{mg      = {Mar. Geol.} }
+@STRING{mmnp    = {Math. Model. Nat. Phenom.} }
 @STRING{n       = {Nature} }
 @STRING{p       = {Polarforschung} }
 @STRING{po      = {Paleoceanography} }
@@ -47,9 +58,15 @@
 @STRING{qsr     = {Quaternary Sci. Rev.} }
 @STRING{rg      = {Rev. Geophys.} }
 @STRING{s       = {Sience} }
+@STRING{siamjam = {SIAM J. Appl. Math.} }
+@STRING{siamjsc = {SIAM J. Sci. Comput.} }
+@STRING{sjg     = {Swiss J. Geosci.} }
+@STRING{ta      = {Tellus A} }
 @STRING{tb      = {Tellus B} }
 @STRING{tc      = {The Cryosphere} }
 @STRING{tcd     = {The Cryosphere Discuss.} }
+@STRING{th      = {The Holocene} }
+@STRING{tn      = {Terra Nova} }
 @STRING{trsc    = {T. Roy. Soc. Can.} }
 @STRING{zgg     = {Z. Gletscherk. Glazialgeol.} }
 
@@ -390,12 +407,14 @@
 
 @Article{Buehler.etal.2011,
   author    = {Buehler, T. and Raible, C. C. and Stocker, T. F.},
-  title     = {On the relation of extreme {N}orth {A}tlantic blocking
-              frequencies, cold spells, and droughts in ERA-40 in winter},
-  journal   = {Tellus},
+  title     = {The relationship of winter season North Atlantic blocking
+              frequencies to extreme cold or dry spells in the {ERA}-40},
+  journal   = ta,
   volume    = {63},
-  pages     = {212-222},
-  year      = {2011}
+  number    = {2},
+  pages     = {212--222},
+  year      = {2011},
+  doi       = {10.1111/j.1600-0870.2010.00492.x}
 }
 
 @Article{Bueler.Brown.2009,
@@ -666,7 +685,7 @@
               and A. M. Le Brocq and R. M. Gladstone and A. J. Payne and E. G.
               Ng and W. H. Lipscomb},
   title     = {Adaptive mesh, finite volume modeling of marine ice sheets},
-  journal   = {J. Comput. Phys.},
+  journal   = jcp,
   pages     = {529-549},
   year      = {2013}
 }
@@ -748,7 +767,7 @@
               Kageyama, M},
   title     = {Comparing proxies for the reconstruction of {LGM} sea-surface
               conditions in the {N}orthern {N}orth {A}tlantic},
-  journal   = {Quaternary Sci. Rev.},
+  journal   = qsr,
   volume    = {25},
   number    = {21},
   pages     = {2820--2834},
@@ -767,7 +786,7 @@
   author    = {Dee, D. P. and al.},
   title     = {The ERA-Interim reanalysis: configuration and performance of the
               data assimilation system.},
-  journal   = {Quarterly Journal of the Royal Meteorological Society},
+  journal   = qjrms,
   volume    = {137},
   pages     = {553-597},
   year      = {2011}
@@ -929,16 +948,17 @@
   title     = {Surface geometry of the Last Glacial Maximum ({LGM}) in the
               {S}outheastern {S}wiss {A}lps ({G}raub\"unden) and its
               paleoclimatological significance},
-  journal   = {Eiszeitalter u. Gegenwart},
+  journal   = eg,
   volume    = {48},
-  year      = {1998}
+  year      = {1998},
+  doi       = {10.3285/eg.48.1.03}
 }
 
 @Article{Florineth.Schluchter.1998,
   author    = {Florineth, D. and Schl\"uchter, C.},
   title     = {Reconstructing the Last Glacial Maximum ({LGM}) ice surface
               geometry and flowlines in the Central {S}wiss {A}lps},
-  journal   = {Eclogae. Geol. Hel.},
+  journal   = egh,
   volume    = {91},
   pages     = {391--407},
   year      = {1998}
@@ -948,7 +968,7 @@
   author    = {Florineth, D. and Schl\"uchter, C.},
   title     = {Alpine Evidence for Atmospheric Circulation Patterns in {E}urope
               during the {LGM}},
-  journal   = {Quartenary Research},
+  journal   = qr,
   volume    = {54},
   year      = {2000}
 }
@@ -1055,7 +1075,7 @@
   author    = {M. Funk and K. Echelmeyer and A. Iken},
   title     = {Mechanisms of fast flow in {J}akobshavns {I}sbrae, {G}reenland;
               {P}art {II}: {M}odeling of englacial temperatures},
-  journal   = {J. Glac.},
+  journal   = jgl,
   volume    = {40},
   number    = {136},
   pages     = {569--585},
@@ -1078,7 +1098,7 @@
   author    = {O. Gagliardini and T. Zwinger},
   title     = {The {ISMIP-HOM} benchmark experiments performed using the
               Finite-Element code {E}lmer},
-  journal   = {The Cryosphere Discuss},
+  journal   = tcd,
   volume    = {2},
   pages     = {75--109},
   year      = {2008}
@@ -1092,7 +1112,7 @@
               H. and Thies, J.},
   title     = {Capabilities and performance of {E}lmer/{I}ce, a new-generation
               ice sheet model},
-  journal   = {Geoscientific Model Development},
+  journal   = gmd,
   volume    = {6},
   number    = {4},
   pages     = {1299--1318},
@@ -1126,7 +1146,7 @@
 @Article{Glen.1953,
   author    = {{Glen}, J.~W.},
   title     = {{Rate of Flow of Polycrystalline Ice}},
-  journal   = {Nature},
+  journal   = n,
   volume    = {172},
   pages     = {721-722},
   year      = {1953}
@@ -1153,7 +1173,7 @@
               M. Maas and Brenda L. Hall},
   title     = {Glaciology and geological signature of the Last Glacial Maximum
               {A}ntarctic {I}ce {S}heet},
-  journal   = {Quaternary Sci. Rev.},
+  journal   = qsr,
   volume    = {78},
   number    = {0},
   pages     = {225 - 247},
@@ -1164,7 +1184,7 @@
   author    = {G\'omez-Navarro, J. J. and Raible, C. C.},
   title     = {Dynamical downscaling of wind storms in the Alpine area: Setup
               of the regional model {WRF} and associated uncertainties},
-  journal   = {Geoscientific Model Develpment},
+  journal   = gmd,
   pages     = {In preparation},
   year      = {2015}
 }
@@ -1175,7 +1195,7 @@
               J. F. and Zorita, E.},
   title     = {A regional climate simulation over the {I}berian {P}eninsula for
               the last millennium},
-  journal   = {Clim. Past},
+  journal   = cp,
   volume    = {7},
   number    = {2},
   pages     = {451--472},
@@ -1188,7 +1208,7 @@
               Gonz\'alez-Rouco, J.F. and Zorita, E.},
   title     = {Internal and external variability in regional simulations of the
               {I}berian {P}eninsula climate over the last millennium},
-  journal   = {Clim. Past},
+  journal   = cp,
   volume    = {8},
   number    = {1},
   pages     = {25--36},
@@ -1200,7 +1220,7 @@
               Zorita, E.},
   title     = {A regional climate palaeosimulation for {E}urope in the period
               1500--1990 -- Part 1: Model validation},
-  journal   = {Clim. Past},
+  journal   = cp,
   volume    = {9},
   number    = {4},
   pages     = {1667--1682},
@@ -1247,7 +1267,7 @@
   title     = {Application of a polythermal three-dimensional ice sheet model
               to the {G}reenland {I}ce {S}heet: response to a steady-state and
               transient climate scenarios},
-  journal   = {Journal of Climate},
+  journal   = jc,
   volume    = {10},
   number    = {5},
   pages     = {901-918},
@@ -1271,7 +1291,7 @@
   author    = {Greve, R. and Wyrwoll, K. H. and Eisenhauer, A.},
   title     = {Deglaciation of the {N}orthern Hemisphere at the onset of the
               {E}emian and {H}olocene},
-  journal   = {Annals of Glaciology},
+  journal   = ag,
   volume    = {28},
   number    = {1},
   pages     = {1-8},
@@ -1406,7 +1426,7 @@
   author    = {Hofer, D. and Raible, C. C. and Dehnert, A. and Kuhlemann J.},
   title     = {Simulated winter circulation types in the {N}orth {A}tlantic and
               {E}uropean region for preindustrial and glacial conditions},
-  journal   = {Geophys. Res. Lett.},
+  journal   = grl,
   volume    = {39},
   year      = {2012},
   note      = {L15805}
@@ -1417,7 +1437,7 @@
   title     = {The impact of different glacial boundary conditions on
               atmospheric dynamics and precipitation in the {N}orth {A}tlantic
               region},
-  journal   = {Climate Past},
+  journal   = cp,
   volume    = {8},
   pages     = {935-949},
   year      = {2012}
@@ -1439,7 +1459,7 @@
               E. E. and Solomon, A. M.},
   title     = {Simulated influences of {L}ake {A}gassiz on the climate of
               central {N}orth {A}merica 11,000 years ago},
-  journal   = {Nature},
+  journal   = n,
   volume    = {405},
   number    = {6784},
   pages     = {334--337},
@@ -1469,22 +1489,12 @@
   doi       = {10013/epic.12066}
 }
 
-@Article{IPCC.2013,
-  author    = {IPCC},
-  title     = {Climate Change 2013: The Physical Science Basis. Contribution
-              ofWorking Group I to the Fifth Assessment Report of the
-              Intergovernmental Panel on Climate Change},
-  journal   = {Cambridge University 800 Press, Cambridge, United Kingdom and
-              New York, NY, USA},
-  year      = {2013}
-}
-
 @Article{Iken.etal.1993,
   author    = {A. Iken and K. Echelmeyer and W. D. Harrison and M. Funk},
   title     = {Mechanisms of fast flow in {J}akobshavns {I}sbrae, {G}reenland,
               {P}art {I}: {M}easurements of temperature and water level in deep
               boreholes},
-  journal   = {J. Glac.},
+  journal   = jgl,
   volume    = {39},
   number    = {131},
   pages     = {15--25},
@@ -1513,7 +1523,7 @@
               and Schlüchter, C.},
   title     = {Timing of deglaciation on the {N}orthern Alpine foreland
               ({S}witzerland)},
-  journal   = {Eclogae Geologicae Helvetiae},
+  journal   = egh,
   volume    = {97},
   number    = {1},
   pages     = {47-55},
@@ -1526,7 +1536,7 @@
               Preusser, Frank and Heine, Klaus and Maisch, Max and Kubik, Peter
               W. and Schlüchter, Christian},
   title     = {Chronology of the last glacial cycle in the {E}uropean {A}lps},
-  journal   = {Journal of Quaternary Science},
+  journal   = jqs,
   volume    = {23},
   number    = {6-7},
   pages     = {559--573},
@@ -1539,7 +1549,7 @@
 @Article{Jackli.1962,
   author    = {H. J\"ackli},
   title     = {Die Vergletscherung der {S}chweiz im {W}\"urm maximum},
-  journal   = {Eclogae geol. Helv},
+  journal   = egh,
   volume    = {55},
   year      = {1962}
 }
@@ -1614,7 +1624,7 @@
   title     = {High-resolution simulations of the last glacial maximum climate
               over {E}urope: a solution to discrepancies with continental
               palaeoclimatic reconstructions?},
-  journal   = {Clim. Dynam.},
+  journal   = cd,
   volume    = {24},
   pages     = {577-590},
   year      = {2005}
@@ -1624,7 +1634,7 @@
   author    = {G. Jouvet},
   title     = {Multilayer Shallow Shelf Approximation: minimisation
               formulation, finite element solvers and applications},
-  journal   = {J. Comput. Phys.},
+  journal   = jcp,
   volume    = {287},
   pages     = {60--76},
   year      = {2015}
@@ -1654,7 +1664,7 @@
   author    = {Jouvet, G. and Funk, M.},
   title     = {Modelling the trajectory of the corpses of mountaineers who
               disappeared in 1926 on {A}letschgletscher},
-  journal   = {J. Glac.},
+  journal   = jgl,
   volume    = {60},
   number    = {220},
   pages     = {255--261},
@@ -1665,7 +1675,7 @@
   author    = {G. Jouvet and C. Gr\"aser},
   title     = {An adaptive {N}ewton multigrid method for a model of marine ice
               sheets},
-  journal   = {J. Comput. Phys.},
+  journal   = jcp,
   volume    = {252},
   number    = {0},
   pages     = {419 - 437},
@@ -1686,7 +1696,7 @@
   author    = {G. Jouvet and M. Picasso and J. Rappaz and H. Blatter},
   title     = {A new algorithm to simulate the dynamics of a glacier: theory
               and applications},
-  journal   = {J. Glac.},
+  journal   = jgl,
   volume    = {54},
   number    = {188},
   pages     = {801--811},
@@ -1697,7 +1707,7 @@
   author    = {Guillaume Jouvet and Matthias Huss and Heinz Blatter and Marco
               Picasso and Jacques Rappaz},
   title     = {Numerical simulation of {R}honegletscher from 1874 to 2100},
-  journal   = {J. Comput. Phys.},
+  journal   = jcp,
   volume    = {228},
   number    = {17},
   pages     = {6426-6439},
@@ -1708,7 +1718,7 @@
   author    = {Jouvet, G. and Huss, M. and Funk, M. and Blatter, H.},
   title     = {Modelling the retreat of {G}rosser {A}letschgletscher,
               {S}witzerland, in changing climate},
-  journal   = {J. Glac.},
+  journal   = jgl,
   volume    = {57},
   number    = {206},
   pages     = {1033-1045},
@@ -1730,7 +1740,7 @@
   author    = {Jouvet, G. and Rappaz, J. and Bueler, E. and Blatter, H.},
   title     = {Existence and stability of steady state solutions of the shallow
               ice sheet equation by an energy minimization approach},
-  journal   = {J. Glaciol.},
+  journal   = jgl,
   year      = {2011}
 }
 
@@ -1759,7 +1769,7 @@
   author    = {Kageyama, M. and Valdes, P. J.},
   title     = {Impact of the {N}orth {A}merican ice-sheet orography on the Last
               Glacial Maximum eddies and snowfall},
-  journal   = {Geophys. Res. Lett.},
+  journal   = grl,
   volume    = {27},
   pages     = {1515-1518},
   year      = {2000}
@@ -1775,7 +1785,7 @@
               {E}urope and {W}estern {S}iberia: a comparison between {PMIP}
               models, {MARGO} sea-surface temperatures and pollen based
               reconstructions},
-  journal   = {Quaternary Sci. Rev.},
+  journal   = qsr,
   volume    = {25},
   pages     = {2082-2102},
   year      = {2006}
@@ -1805,7 +1815,7 @@
   title     = {A reconstruction of the last glacial maximum ({LGM}) ice surface
               geometry in the western {S}wiss {A}lps and contiguous Alpine
               regions in {I}taly and {F}rance},
-  journal   = {Eclogae geol. Hel.},
+  journal   = egh,
   pages     = {57--75},
   year      = {2004}
 }
@@ -1823,7 +1833,7 @@
   author    = {Kim, S. J. and Crowley, T. J. and Erickson, D. J. and
               Govindasamy, B. and Duffy, P. B. and Lee, B. Y.},
   title     = {High-resolution climate simulation of the last glacial maximum},
-  journal   = {Clim. Dynam.},
+  journal   = cd,
   volume    = {31},
   pages     = {1-16},
   year      = {2008}
@@ -1933,7 +1943,7 @@
   title     = {The Influence of Changing Orbital Parameters and Surface
               Boundary-conditions On Climate Simulations For the Past 18000
               Years},
-  journal   = {J. Atmos. Sci.},
+  journal   = jas,
   volume    = {43},
   pages     = {1726-1759},
   year      = {1986}
@@ -1946,7 +1956,7 @@
   title     = {{N}orthern hemisphere storm tracks during the last glacial
               maximum in the {PMIP2} ocean-atmosphere coupled models: energetic
               study, seasonal cycle, precipitation},
-  journal   = {Clim. Dynam.},
+  journal   = cd,
   volume    = {32},
   pages     = {593-614},
   year      = {2009}
@@ -1984,18 +1994,18 @@
   title     = {Continental scale, high order, high spatial resolution, ice
               sheet modeling using the {I}ce {S}heet {S}ystem {M}odel
               ({ISSM})},
-  journal   = {J. Geophys. Res.: Earth Surface},
+  journal   = jgr,
   volume    = {117},
-  number    = {F1},
-  pages     = {n/a--n/a},
-  year      = {2012}
+  pages     = {F01022},
+  year      = {2012},
+  doi       = {10.1029/2011JF002140}
 }
 
 @Article{Lehner.etal.2012,
   author    = {Lehner, F. and C. C. Raible, C. C. and Stocker T. F.},
   title     = {Testing the robustness of a precipitation proxy-based {N}orth
               {A}tlantic Oscillation reconstruction},
-  journal   = {Quat. Sci. Rev.},
+  journal   = qsr,
   volume    = {45},
   pages     = {85-94},
   year      = {2012}
@@ -2005,7 +2015,7 @@
   author    = {Lehner, F. and Raible, C. C. and Hofer, D. and Stocker T. F.},
   title     = {The freshwater balance of polar regions in transient simulations
               from 1500-2100 {AD} using a comprehensive coupled climate model},
-  journal   = {Climate Dyn.},
+  journal   = cd,
   volume    = {39},
   pages     = {347-363},
   year      = {2012}
@@ -2015,7 +2025,7 @@
   author    = {Lehner, F. and Born, A. and Raible, C. C. and Stocker T. F},
   title     = {Amplified inception of {E}uropean Little Ice Age by sea
               ice-ocean-atmosphere feedbacks},
-  journal   = {J. Climate},
+  journal   = jc,
   volume    = {26},
   pages     = {7586-7602},
   year      = {2013}
@@ -2025,7 +2035,7 @@
   author    = {Li, C. and D. S. Battisti},
   title     = {Reduced {A}tlantic storminess during Last Glacial Maximum:
               Evidence from a coupled climate model},
-  journal   = {J. Climate},
+  journal   = jc,
   volume    = {21},
   pages     = {3561-3579},
   year      = {2008}
@@ -2070,7 +2080,7 @@
               Müller, W.},
   title     = {{N}orth {A}tlantic storm track changes during the Last Glacial
               Maximum recorded by Alpine speleothems},
-  journal   = {Nature},
+  journal   = n,
   volume    = {5},
   year      = {2015},
   doi       = {10.1038/ncomms7344},
@@ -2093,7 +2103,7 @@
   author    = {M. P. L{\"u}thi and M. Funk},
   title     = {Dating ice cores from a high {A}lpine glacier with a flow model
               for cold firn},
-  journal   = {Annals of Glaciology},
+  journal   = ag,
   volume    = {31},
   pages     = {69-79},
   year      = {2000}
@@ -2104,7 +2114,7 @@
   title     = {Modelling heat flow in a cold, high altitude glacier:
               interpretation of measurements from {C}olle {G}nifetti, {S}wiss
               {A}lps},
-  journal   = {J. Glac.},
+  journal   = jgl,
   volume    = {47},
   number    = {157},
   pages     = {314--324},
@@ -2131,7 +2141,7 @@
   title     = {Indication of active overthrust faulting along the
               {H}olocene-{W}isconsin transition in the marginal zone of
               {J}akobshavn {I}sbr{\ae}},
-  journal   = {J. Geophys. Res.},
+  journal   = jgr,
   volume    = {108},
   number    = {B11},
   year      = {2003},
@@ -2140,19 +2150,20 @@
 
 @Article{Luthi.etal.2010,
   author    = {Martin P. L{\"u}thi and Andreas Bauder and Martin Funk},
-  title     = {Glacier Volume Change Reconstruction from Length Change Data of
-              the {S}wiss {A}lps},
-  journal   = {J. Geophys. Res.; Earth Surface Processes},
+  title     = {Volume change reconstruction of Swiss glaciers from length
+              change data},
+  journal   = jgr,
   volume    = {115},
   number    = {F04022},
-  year      = {2010}
+  year      = {2010},
+  doi       = {10.1029/2010JF001695}
 }
 
 @Article{MacAyeal.1989,
   author    = {D. R. MacAyeal},
   title     = {Large-scale ice flow over a viscous basal sediment: Theory and
               Application to {I}ce {S}tream {B}, {A}ntarctica},
-  journal   = {J. Geophys. Res.},
+  journal   = jgr,
   volume    = {94},
   number    = {B4},
   pages     = {4071--4078},
@@ -2294,7 +2305,7 @@
   author    = {Merz, N. and Raible, C. C. and Woollings, T.},
   title     = {{N}orth {A}tlantic eddy-driven jet in interglacial and glacial
               winter climates},
-  journal   = {J. Climate},
+  journal   = jc,
   year      = {2015},
   note      = {submitted}
 }
@@ -2319,7 +2330,7 @@
   author    = {Mix, A. C. and Bard, E. and Schneider, R.},
   title     = {Environmental {P}rocesses of the {I}ce age: {L}and, {O}ceans,
               {G}laciers ({EPILOG})},
-  journal   = {Quaternary Sci. Rev.},
+  journal   = qsr,
   volume    = {20},
   pages     = {627-657},
   year      = {2001}
@@ -2431,7 +2442,7 @@
   title     = {A comparison of {PMIP2} model simulations and the MARGO proxy
               reconstruction for tropical sea surface temperatures at last
               glacial maximum},
-  journal   = {Clim. Dynam.},
+  journal   = cd,
   volume    = {32},
   pages     = {799-815},
   year      = {2009}
@@ -2478,7 +2489,7 @@
               M. and Nisancioglu, K. H.},
   title     = {{T}he key role of topography in altering {N}orth {A}tlantic
               atmospheric circulation during the last glacial period},
-  journal   = {Clim. Past},
+  journal   = cp,
   volume    = {7},
   pages     = {1089-1101},
   year      = {2011}
@@ -2531,7 +2542,7 @@
               and Bottema, Sytze and Andrieu, Val{\'e}rie},
   title     = {Climatic reconstruction in {E}urope for 18,000 yr {BP} from
               pollen data},
-  journal   = {Quaternary research},
+  journal   = qr,
   volume    = {49},
   number    = {2},
   pages     = {183--196},
@@ -2623,7 +2634,7 @@
               Wanner, H.},
   title     = {Climate Variability - Observations, Reconstructions and Model
               Simulations},
-  journal   = {Clim. Change},
+  journal   = cc,
   volume    = {79},
   pages     = {9-29},
   year      = {2006}
@@ -2635,7 +2646,7 @@
   title     = {Extreme midlatitude cyclones and their implications to
               precipitation and wind speed extremes in simulations of the
               {M}aunder Minimum versus present day conditions},
-  journal   = {Clim. Dyn.},
+  journal   = cd,
   volume    = {28},
   pages     = {409-423},
   year      = {2007}
@@ -2646,7 +2657,7 @@
               Fernandez-Donado L.},
   title     = {Changing correlation structures of the {N}orthern Hemisphere
               atmospheric circulation from 1000 to 2100 {AD}},
-  journal   = {Climate Past},
+  journal   = cp,
   volume    = {10},
   pages     = {537-550},
   year      = {2014}
@@ -2658,7 +2669,7 @@
   title     = {How cold was {E}urope at the Last Glacial Maximum? {A} synthesis
               of the progress achieved since the first {PMIP} model-data
               comparison},
-  journal   = {Clim. Past},
+  journal   = cp,
   volume    = {3},
   pages     = {331-339},
   year      = {2007}
@@ -2670,7 +2681,7 @@
   title     = {The latest \{{LGM}\} culmination of the {G}arda Glacier
               ({I}talian {A}lps) and the onset of glacial termination. Age of
               glacial collapse and vegetation chronosequence},
-  journal   = {Quaternary Sci. Rev.},
+  journal   = qsr,
   volume    = {105},
   number    = {0},
   pages     = {26 - 47},
@@ -2722,11 +2733,12 @@
   title     = {Modeling the evolution of {A}ntarctic {I}ce {S}heet over the
               last 420,000 years: Implications for altitude changes in the
               {V}ostok region},
-  journal   = {J. Geophys. Res.: Atmospheres},
+  journal   = jgr,
   volume    = {106},
   number    = {D23},
   pages     = {31943--31964},
-  year      = {2001}
+  year      = {2001},
+  doi       = {10.1029/2001JD900232}
 }
 
 @Article{Robert.1991,
@@ -2781,11 +2793,11 @@
   author    = {Rutt, I. C. and Hagdorn, M. and Hulton, N. R. J. and Payne, A.
               J.},
   title     = {The {G}limmer community ice sheet model},
-  journal   = {J. Geophys. Res.: Earth Surface},
+  journal   = jgr,
   volume    = {114},
-  number    = {F2},
-  pages     = {n/a--n/a},
-  year      = {2009}
+  pages     = {F02004},
+  year      = 2009,
+  doi       = {10.1029/2008JF001015}
 }
 
 @Article{Ryder.etal.1991,
@@ -2806,14 +2818,11 @@
               A.},
   title     = {Caterpillar-like ice motion in the ablation zone of the
               {G}reenland {I}ce {S}heet},
-  journal   = {J. Geophys. Res.: Earth Surface},
+  journal   = jgres,
   volume    = {119},
-  number    = {10},
   pages     = {2258--2271},
   year      = {2014},
-  doi       = {10.1002/2013JF003067},
-  issn      = {2169-9011},
-  keywords  = {ice dynamics, summer variations, stress transfer}
+  doi       = {10.1002/2013JF003067}
 }
 
 % --------------------------------------------------------------------------- %
@@ -2850,16 +2859,6 @@
   year      = {2011}
 }
 
-@Article{Schlüchter.1991,
-  author    = {C. Schlüchter},
-  title     = {{F}azies und {C}hronologie des letzteiszeitlichen {E}isaufbaues
-              im {A}lpenvorland der {S}chweiz. In {K}limageschichtliche
-              {P}robleme der letzten 130000 {J}ahre},
-  journal   = {FrenzelB. G. Fischer: Stuttgart/New York},
-  number    = {401–407},
-  year      = {1991}
-}
-
 @Article{Schmidt.etal.2011,
   author    = {Schmidt, G. A. and Annan, J. D. and Bartlein, P. J. and Cook, B.
               I. and Guilyardi, E. and Hargreaves, J. C. and Harrison, S. P.
@@ -2869,7 +2868,7 @@
               P.},
   title     = {Using palaeo-climate comparisons to constrain future projections
               in {CMIP5}},
-  journal   = {Clim. Past},
+  journal   = cp,
   volume    = {10},
   pages     = {221-250},
   year      = {2011}
@@ -2929,7 +2928,7 @@
               P. and Zhang, Q.},
   title     = {The effect of climate forcing on numerical simulations of the
               {C}ordilleran {I}ce {S}heet at the Last Glacial Maximum},
-  journal   = {The Cryosphere},
+  journal   = tc,
   volume    = {8},
   number    = {3},
   pages     = {1087--1103},
@@ -2990,7 +2989,7 @@
               and Kutzbach, J. E. and Harrison, S. P.},
   title     = {A simulation of the last glacial maximum climate using the
               {NCAR-CCSM}},
-  journal   = {Clim. Dynam.},
+  journal   = cd,
   volume    = {20},
   pages     = {127–151},
   year      = {2003}
@@ -3024,7 +3023,7 @@
 @Article{Smith.Barstad.2004,
   author    = {Ronald B. Smith and Idar Barstad},
   title     = {A linear theory of orographic precipitation.},
-  journal   = {J. Atmos. Sci.},
+  journal   = jas,
   volume    = {61},
   number    = {1377–1391},
   year      = {2004},
@@ -3037,7 +3036,7 @@
   title     = {Spatial and temporal variations of glacial erosion in the
               {R}hone valley ({S}wiss {A}lps): Insights from numerical
               modeling},
-  journal   = {Earth and Planetary Science Letters},
+  journal   = epsl,
   volume    = {368},
   number    = {0},
   pages     = {119 - 131},
@@ -3060,10 +3059,11 @@
               B.},
   title     = {High-resolution regional simulation of last glacial maximum
               climate in {E}urope},
-  journal   = {Tellus},
+  journal   = ta,
   volume    = {63},
-  pages     = {107-125},
-  year      = {2011}
+  pages     = {107--125},
+  year      = {2011},
+  doi       = {10.1111/j.1600-0870.2010.00485.x}
 }
 
 @Article{Stroeven.etal.2010,
@@ -3099,7 +3099,7 @@
   title     = {Identification of erosional mechanisms during past glaciations
               based on a bedrock surface model of the central {E}uropean
               {A}lps},
-  journal   = {Earth and Planetary Science Letters},
+  journal   = epsl,
   volume    = {384},
   number    = {0},
   pages     = {57 - 70},
@@ -3181,7 +3181,7 @@
   author    = {Trend-Staid, M. and Prell, W. L.},
   title     = {Sea surface temperature at the Last Glacial Maximum: A
               reconstruction using the modern analog technique},
-  journal   = {Paleoceanography},
+  journal   = po,
   volume    = {17},
   number    = {4},
   pages     = {17-1--17-18},
@@ -3334,7 +3334,7 @@
               T. and Bueler, E. and Khroulev, C. and Levermann, A.},
   title     = {The {P}otsdam {P}arallel {I}ce {S}heet {M}odel ({PISM-PIK}) –
               Part 1: Model description},
-  journal   = {The Cryosphere},
+  journal   = tc,
   volume    = {5},
   number    = {3},
   pages     = {715--726},
@@ -3346,7 +3346,7 @@
   title     = {Climatic changes in {E}urasia and {A}frica at the last glacial
               maximum and mid-{H}olocene: reconstruction from pollen data using
               inverse vegetation modelling},
-  journal   = {Clim. Dynam.},
+  journal   = cd,
   volume    = {29},
   pages     = {211-229},
   year      = {2007}
@@ -3493,6 +3493,19 @@
   doi       = {10.1007/978-94-009-3745-1_6}
 }
 
+@InCollection{Schlüchter.1991,
+  author    = {C. Schlüchter},
+  title     = {{F}azies und {C}hronologie des letzteiszeitlichen {E}isaufbaues
+              im {A}lpenvorland der {S}chweiz. In {K}limageschichtliche
+              {P}robleme der letzten 130000 {J}ahre},
+  pages     = {401--407},
+  year      = {1991},
+  editor    = {B. Frenzel},
+  booktitle = {Klimageschichtliche Probleme der letzten 130 000 Jahre},
+  publisher = {G. Fischer Verlag},
+  address   = {Stuttgart}
+}
+
 @InCollection{Stea.etal.2011,
   author    = {Rudolph R. Stea and Allen A. Seaman and Toon Pronk and Michael
               A. Parkhill and Serge Allard and Daniel Utting},
@@ -3622,6 +3635,18 @@
   year      = {1983}
 }
 
+@Book{IPCC.2013,
+  author    = {IPCC},
+  title     = {Climate Change 2013: The Physical Science Basis. Contribution of
+              Working Group I to the Fifth Assessment Report of the
+              Intergovernmental Panel on Climate Change},
+  editor    = {Stocker, Thomas and Qin, Dahe and Plattner, Gian-Kasper and
+              Tignor, M and Allen, Simon K and Boschung, Judith and Nauels,
+              Alexander and Xia, Yu and Bex, Vincent and Midgley, Pauline M},
+  publisher = {Cambridge University Press},
+  year      = 2013
+}
+
 @Book{Knight.2006,
   editor    = {P. G. Knight},
   booktitle = {Glacier Science and Environmental Change},
@@ -3701,7 +3726,7 @@
 % =========================================================================== %
 % CONFERENCE PROCEEDINGS                                                      %
 % =========================================================================== %
-@InProceedings{Joussaume.Taylor.1995a,
+@InProceedings{Joussaume.Taylor.1995,
   author    = {Joussaume, S and Taylor, K. E.},
   title     = {Status of the Paleoclimate Modeling Intercomparison Project
               (PMIP)},
@@ -3719,6 +3744,9 @@
   year      = 1995
 }
 
+% =========================================================================== %
+% PHD THESES                                                                  %
+% =========================================================================== %
 @PhDThesis{Coutterand.2010,
   author    = {S. Coutterand},
   title     = {Etude géomorphologique des flux glaciaires dans les Alpes
@@ -3728,9 +3756,6 @@
   year      = {2010}
 }
 
-% =========================================================================== %
-% PHD THESES                                                                  %
-% =========================================================================== %
 @PhDThesis{Seguinot.2014,
   author    = {J. Seguinot},
   title     = {Numerical modelling of the Cordilleran ice sheet},
